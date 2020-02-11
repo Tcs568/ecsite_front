@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ress.css">
+    <title>お問い合わせ - 【NodaCoffee】公式オンラインショップ</title>
+
+</head>
+
+<body>
+    <!-- LOADING -->
+    <div class="SubLoader">
+        <div class="LoaderBg IsActive js-loaderBg">
+            <div class="Loader IsActive js-loader">
+            </div>
+        </div>
+    </div>
+    <!-- /LOADING -->
+    <!-- WRAP -->
+    <div class="Wrap">
+        <!-- GLOBALNAV -->
+        <nav class="GlobalNav">
+            <ul class="js-navList GlobalNav__List">
+                <li class="GlobalNav__Item"><a class="GlobalNav__Link Primary" href="./about.html">NodaCoffeeとは？</a>
+                </li>
+                <li class="GlobalNav__Item"><a class="GlobalNav__Link Primary" href="./products/list.html">商品一覧</a>
+                </li>
+                <li class="GlobalNav__Item"><a class="GlobalNav__Link Primary" href="./news.html">お知らせ</a>
+                </li>
+                <li class="GlobalNav__Item"><a class="GlobalNav__Link Primary" href="./contact.html">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /GLOBALNAV -->
+        <!-- HEADER -->
+        <header class="Header">
+            <div class="Header__NavBtn">
+                <button class="NavBtn js-navTrigger">
+                    <span class="NavBtn NavBtn__Top"></span>
+                    <span class="NavBtn NavBtn__Middle"></span>
+                    <span class="NavBtn NavBtn__Bottom"></span>
+                </button>
+            </div>
+            <div class="Header__Body">
+                <div class="Header__BrandLogo">
+                    <a href="./index.html">
+                        <img class="BrandLogo__Img" src="./img/common/logo_black.png" alt="NodaCoffeeロゴマーク">
+                    </a>
+                </div>
+            </div>
+            <div class="Header__Info Header__Sp">
+                <p class="Header__Info-Text Header__Sp"><a class="Header__Info-Link Header__Sp Primary"
+                        href="./products/list.html">商品一覧</a>
+                </p>
+            </div>
+            <div class="Header__Info Header__Pc">
+                <p class="Header__Info-Text Header__Pc"><a class="Header__Info-Link Header__Pc"
+                        href="./products/list.html">商品一覧をみる</a>
+                </p>
+            </div>
+        </header>
+        <!-- /HEADER -->
+        <!-- CONTAINER -->
+        <div class="Container">
+            <!-- CONTENT -->
+            <main class="Content">
+
+                <!-- CONTACT -->
+                <section class="SubPage__Top">
+                    <h2 class="SubPage__Top-Title">お問い合わせ</h2>
+                </section>
+                <div class="Sec ContactForm">
+                    <form class="Form" action="" method="post" id="form" class="form">
+                        <div class="Form__TextArea">
+                            <p>
+                                内容によっては回答をさしあげるのにお時間をいただくこともございます。
+                                <br>また、休業日は翌営業日以降の対応となりますのでご了承ください。
+                            </p>
+                        </div>
+                        <dl class="Form">
+                            <dt class="Form__Head">
+                                <label>お名前</label>
+                                <span class="Alert">必須</span>
+                            </dt>
+                            <dd class="Form__Content">
+                                <input type="text" class="Form__Box Row" id="lastname" placeholder="姓">
+                                <input type="text" class="Form__Box Row" id="fastname" placeholder="名">
+                            </dd>
+                        </dl>
+                        <dl class="Form">
+                            <dt class="Form__Head">
+                                <label>メールアドレス</label>
+                                <span class="Alert">必須</span>
+                            </dt>
+                            <dd class="Form__Content">
+                                <input type="text" class="Form__Box" id="mail" placeholder="メールアドレス">
+                            </dd>
+                        </dl>
+                        <dl class="Form">
+                            <dt class="ContactForm__Head">
+                            <dt class="Form__Head">
+                                <label>お問い合わせ内容</label>
+                                <span class="Alert">必須</span>
+                            </dt>
+                            </dt>
+                            <dd class="Form__Content">
+                                <textarea name="textarea" class="Form__Box" id="textarea" cols="10"
+                                    rows="10"></textarea>
+                            </dd>
+                        </dl>
+                        <button class="Form__Btn">
+                            <a href="./" class="Form__Link">送信する</a>
+                        </button>
+                    </form>
+                </div>
+                <!-- /CONTACT -->
+            </main>
+            <!-- /CONTENT -->
+            <!-- FOOTER -->
+            <footer class="Sec Footer">
+                <a href="./index.html">
+                    <img class="Footer__Logo" src="./img/common/logo_white.png" alt="NodaCoffeeロゴマーク">
+                </a>
+                <div class="Footer__Content">
+                    <nav class="FooterNav">
+                        <ul class="FooterNav__List">
+                            <li class="FooterNav__Item">
+                                <a class="FooterNav__Link" href="./entry.html">会員登録</a>
+                                <span class="FooterNav__Link">/</span>
+                                <a class="FooterNav__Link" href="./login.html">ログイン</a>
+                            </li>
+                            <li class="FooterNav__Item">
+                                <a class="FooterNav__Link" href="./cart.html">カートを見る</a>
+                            </li>
+                            <li class="FooterNav__Item">
+                                <a class="FooterNav__Link" href="./contact.html">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <small class="Footer__Copy">&copy;2019 NODACOFFEE.
+                    All rights reserved.</small>
+            </footer>
+            <!-- /FOOTER -->
+        </div>
+        <!-- /CONTAINER -->
+    </div>
+    <!-- /WRAP -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+
+</html>
